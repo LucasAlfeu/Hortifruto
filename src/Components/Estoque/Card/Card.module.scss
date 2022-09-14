@@ -1,0 +1,108 @@
+.card{
+    align-items: center;
+    background-color: #fdfdfd;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    min-width: 228px;
+    &__titulo{
+        font-size: 2rem;
+    }
+    &__imagem{
+        size: cover;
+        height: 150px;
+        width: 90%;
+    }
+    &__descricao{
+        height: 40vh;
+        padding: 1rem;
+        margin: 0;
+    }
+    &__preco{
+        font-weight: bold;
+    }
+    &__botao{
+        background-color: #0B5ED7;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width:360px) {
+    .card{
+        margin-bottom: 1.5rem;
+        width: 80vw;
+    }
+}
+@media screen and (min-width:768px) {
+    .card{
+        width: 30vw;
+        margin: 2rem ;
+    }
+}
+@media screen and (min-width: 1080px) {
+    .card{
+        width: 15vw;
+        margin: 2rem 3rem;
+    }
+}
+.modal{
+    align-items: center;
+    background-color: #fdfdfd;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10%;
+    &__container{
+        align-items: center;
+        display: flex;
+        margin: 0 1rem;
+    }
+    &__titulo{
+        padding: 1rem;
+    }
+    &__fechar{
+        background: url(../../../assets/fechar.svg);
+        background-size: cover;
+        border: none;
+        height: 20px;
+        width: 20px;
+    }
+    &__formulario{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.25rem;
+    }
+    &__input{
+        margin-bottom: 1rem;
+    }
+
+}
+@media screen and (min-width:360px) {
+    .modal{
+        width: 95vw;
+        left: 2.5vw;
+    }
+}
+@media screen and (min-width:768px) {
+    .modal{
+        width: 65vw;
+        left: 17%;
+    }
+}
+@media screen and (min-width: 1080px) {
+    .modal{
+        width: 500px;
+        left: 36%;
+    }
+}

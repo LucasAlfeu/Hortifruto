@@ -1,0 +1,65 @@
+@import 'styles/variaveis';
+@import 'styles/breackpoints';
+
+.cabecalho{
+    height: 60px;
+    padding: 20px 250px;
+    margin-bottom: 2.5rem;
+    &__menu{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__container{
+        display: flex;
+    }
+    &__lista{
+        display: flex;
+        list-style: none;
+    }
+    &__item{
+        font-size: 20px;
+        margin-left: 1rem;
+        text-decoration: none;
+    }
+    &__link{
+        color: $azul-principal;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+    &__link:hover{
+        color: $azul-escuro;
+        transform: scale(1.5);
+    }
+}
+@media screen and (min-width: 360px) {
+        .cabecalho{
+            padding: 20px 20px;
+            &__menu{
+                align-items: flex-start;
+                flex-direction: column;
+            }
+            &__lista{
+                padding: 0;
+            }
+        }
+}
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        padding: 20px 50px;
+        &__menu{
+            align-items: center;
+            flex-direction: column;
+        }
+        &__item{
+            font-size: 2rem;
+        }
+    } 
+}
+@media screen and (min-width: 1080px) {
+    .cabecalho{
+        &__menu{
+            flex-direction: row;
+        }
+    }
+}

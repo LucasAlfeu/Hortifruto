@@ -1,0 +1,39 @@
+@import 'styles/variaveis';
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+
+.banner{
+    align-items: center;
+    background-image: url(../../assets/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;  
+    height: 450px;  
+    margin: 3rem 0;
+    text-align: center;
+    width: auto;
+    &__texto{
+        color: black;
+        font-family: 'Lateef', cursive;
+        font-size: 5rem;
+        text-transform: uppercase;
+    }
+}
+@media screen and (min-width: 360px) {
+    .banner{
+        height: 300px;
+        &__texto{
+            padding: 1rem;
+            font-size: 2rem;
+        }
+    }
+}
+@media screen and (min-width: 1080px){
+    .banner{
+        height: 450px;
+        &__texto{
+            font-size: 5rem;
+        }
+    }
+}

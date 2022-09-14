@@ -1,0 +1,38 @@
+.lista__container{
+    text-align: center;
+}
+
+.lista{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    min-height: 300px;
+    text-align: center;
+    width: 350px;
+    &__itens{
+        min-height: 10vh;
+        padding: 1rem 2.5rem;
+        text-align: left;
+    }
+    &__preco{
+        margin: 2.5rem;
+        text-align: end;
+    }&__finalizar{
+        padding: 0.5rem 1rem;
+        margin: 0 0 2.5rem 0;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        background-color: #0B5ED7;
+        color: white;  
+        transition: .3s;      
+    }&__finalizar:hover{
+        transform: scale(1.1);
+    }&__toast{
+        font-size: 1.5rem;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+}

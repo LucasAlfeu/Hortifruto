@@ -1,0 +1,20 @@
+.rodape{
+    align-items: center;
+    background-color: #e7dc78;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    padding: 2.5rem auto;
+    &__titulo{
+        color: #5974a0;
+        font-size: 2rem;
+    }
+    &__instagram {
+        cursor: pointer;
+        margin-right: 1rem;
+    }&__whatsApp {
+        cursor: pointer;
+    }
+}

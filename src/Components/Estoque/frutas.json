@@ -1,0 +1,74 @@
+[
+    {
+        "nome": "Abacaxi",
+        "imagem": "/assets/frutas/abacaxi.jpeg",
+        "descricao": "O abacaxi possui diversos nutrientes que contribuem para evitar doenças e manter a saúde em dia. A fruta possui vitaminas A, C, B1, B2, B3, B5, B6, B9, manganês, magnésio e potássio, além de apresentar um composto ativo muito importante chamado bromelina.",
+        "preco": 4,
+        "id": 0,
+        "quantidade": "unidade"
+    },
+    {
+        "nome": "Goiaba",
+        "imagem": "/assets/frutas/goiaba.jpeg",
+        "descricao": "A goiaba se destaca por possuir um odor característico, sabor marcante e ser suculenta. As goiabas são frutas que possuem fibras e vitaminas, principalmente a C, além de cálcio, magnésio, fósforo, sódio, potássio e ferro.",
+        "preco": 7.5,
+        "id": 1,
+        "quantidade": "gramas"
+    },
+    {
+        "nome": "Laranja",
+        "imagem": "/assets/frutas/laranja.jpeg",
+        "descricao": "Bastante popular no Brasil, a laranja é uma das maiores representantes das frutas cítricas. Além de ser rica em vitamina C, a fruta possui flavonoides e diversos nutrientes importantes para prevenir doenças e deixar o organismo mais resistente.",
+        "preco": 2,
+        "id": 2,
+        "quantidade": "gramas"
+    },
+    {
+        "nome": "Limão",
+        "imagem": "/assets/frutas/limao.jpeg",
+        "descricao": "Ele é uma das frutas cítricas mais populares e se destaca pelo sabor mais azedinho e pelas propriedades nutricionais e contém vitaminas, principalmente a C, e minerais como cálcio, ferro, fósforo, cobre e magnésio.",
+        "preco": 2,
+        "id": 3,
+        "quantidade": "gramas"
+    },
+    {
+        "nome": "Maçã",
+        "imagem": "/assets/frutas/maca.jpeg",
+        "descricao": "Consumir maçã ajuda a ter uma vida equilibrada e longe de doenças. Tanto a polpa quanto a casca são ricas em vitaminas C, sais minerais como cálcio, fósforo e potássio, além de fibras e um poderoso antioxidante, a quercetina.",
+        "preco": 6,
+        "id": 4,
+        "quantidade": "gramas"
+    },
+    {
+        "nome": "Maracujá",
+        "imagem": "/assets/frutas/maracuja.jpeg",
+        "descricao": "Embora o maracujá seja conhecido pela sua ação calmante. O maracujá é fonte de vitamina C, também fornece (em uma porçõa de 100 g do alimento) 1,1 g de fibra, 28 mg de magnésio, 51 mg de fósforo e 338 mg de potássio, e tudo isso fornecendo apenas 68 calorias na porção.",
+        "preco": 4.33,
+        "id": 5,
+        "quantidade": "unidade"
+    },
+    {
+        "nome": "Melancia",
+        "imagem": "/assets/frutas/melancia.jpeg",
+        "descricao": "Ela é rica em água, fonte de carboidratos, possui vitaminas importantes para o organismo como C e A, além de sais minerais como cálcio, magnésio, fósforo, sódio e potássio.",
+        "preco": 2,
+        "id": 6,
+        "quantidade": "gramas"
+    },
+    {
+        "nome": "Pera",
+        "imagem": "/assets/frutas/pera.jpeg",
+        "descricao": "As peras são frutas que se destacam pelo sabor doce e suave. É uma fruta que fornece nutrientes importantes para a saúde como vitamina A, E, C, fibras, potássio, magnésio e cálcio. Ela é pouco calórica, uma unidade média contém apenas 54 kcal.",
+        "preco": 5.5,
+        "id": 7,
+        "quantidade": "gramas"
+    },
+    {
+        "nome": "Uva",
+        "imagem": "/assets/frutas/uva.jpeg",
+        "descricao": "As uvas são encontradas em diferentes colorações e com ou sem sementes. Ela ainda tem vitaminas A, C, E e K e minerais como cálcio, magnésio, fósforo e potássio. Também é pouco calórica —em 100 g da fruta roxa há 50 kcal, já a verde contém 56 kcal.",
+        "preco": 6.25,
+        "id": 8,
+        "quantidade": "gramas"
+    }
+]
