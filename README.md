@@ -4,8 +4,8 @@
 
 [Confira o projeto](https://hortifruto.vercel.app/)
 
-O site se baseia num hortifrute na modalidade delivery cujo o cliente irá criar uma lista de desejo baseado nas frutas que o Produtor possui em estoque, para isso basta ele clicar no card da fruta e escolher a quantidade desejada, com isso ele copia a lista e envia para o Hortifrute com todas as informações necessárias incluindo a quantidade de cada fruta, qual é o nome da fruta e o valor da mesma.
-Foi meu primeiro Projeto feito em Reatc com TypeScript e a estilização utilizei o SASS.
+O site se baseia na ideia de um hortifrute na modalidade delivery cujo o cliente irá criar uma lista de desejo baseado nas frutas que o Produtor possui em estoque, para isso basta ele clicar no card da fruta e escolher a quantidade desejada, com isso ele copia a lista e envia para o Hortifrute com todas as informações necessárias incluindo a quantidade de cada fruta, qual é o nome da fruta e o valor da mesma.
+Foi meu primeiro Projeto feito em Reatc com TypeScript
 
 ## Layout 
 
@@ -16,6 +16,7 @@ Foi meu primeiro Projeto feito em Reatc com TypeScript e a estilização utilize
 ## Front-End
 
 * HTML
+* CSS
 * SASS
 * TypeScript
 * React
